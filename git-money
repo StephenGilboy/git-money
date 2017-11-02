@@ -6,6 +6,7 @@ _git_money() {
 	local bags_o_cash=( )
 	bags_o_cash+=("https://www.youtube.com/watch?v=K-92JFPF9ko#t=320")
 	bags_o_cash+=("https://www.youtube.com/watch?v=Q8yLVXyTC58#t=44s")
+	bags_o_cash+=("https://www.youtube.com/watch?v=TgJ8l5KJeOI#t=26s")
 
 	dollah_bill_yall=${bags_o_cash[$[$RANDOM % ${#bags_o_cash[@]}]]}
 }
