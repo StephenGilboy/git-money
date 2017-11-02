@@ -1,3 +1,13 @@
 #!/bin/sh
+
+dollah_bill_yall=""
+
+_git_money() {
+	local bags_o_cash=( )
+	bags_o_cash+=("https://www.youtube.com/watch?v=K-92JFPF9ko#t=320")
+	bags_o_cash+=("https://www.youtube.com/watch?v=Q8yLVXyTC58#t=44s")
+
+	dollah_bill_yall=${bags_o_cash[$[$RANDOM % ${#bags_o_cash[@]}]]}
+}
   
-open https://www.youtube.com/watch?v=Q8yLVXyTC58#t=44s
+_git_money && open $dollah_bill_yall
