@@ -15,5 +15,5 @@ _git_money
 if ! type "xdg-open" > /dev/null; then
   open $dollah_bill_yall
 else
-  xdg-open $dollah_bill_yall
+  xdg-open $dollah_bill_yall &
 fi
