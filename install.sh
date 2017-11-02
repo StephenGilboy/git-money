@@ -1,5 +1,4 @@
 #!/bin/sh
 
 cp ./git-money /usr/local/bin/git-money
-cd /usr/local/bin
-chmod +x git-money
+chmod +x /usr/local/bin/git-money
