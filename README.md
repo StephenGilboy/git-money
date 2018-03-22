@@ -1,5 +1,5 @@
 # git-money
-Get that money mother fucker. 
+Get that money. 
 
 
 ## How To Git Money
